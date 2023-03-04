@@ -6,7 +6,7 @@ public class Q5_ConvertIntToArray {
 
     public static void main(String[] args) {
 
-     convertIntToArray(890);
+     convertIntToArray(8900);
 
 
     }

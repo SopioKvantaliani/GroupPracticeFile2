@@ -13,6 +13,7 @@ public class Q3_FirstUniqueCharacter {
     FirstNonRepeatedChar("SooPhie");
 
 
+
     }
 
     public static void FirstNonRepeatedChar (String input){
