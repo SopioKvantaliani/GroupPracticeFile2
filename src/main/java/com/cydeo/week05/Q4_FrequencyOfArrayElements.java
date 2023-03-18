@@ -15,7 +15,8 @@ public class Q4_FrequencyOfArrayElements {
 
     }
     public static void FrequencyOfArrayElements (String [] input) {
-        Map<String, Long> conversion = Arrays.stream(input).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()));
+        Map<String, Long> conversion = Arrays.stream(input)
+                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()));
         System.out.println(conversion);
     }
 }

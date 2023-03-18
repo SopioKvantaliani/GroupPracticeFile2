@@ -1,4 +1,4 @@
-package com.cydeo.week07;
+package com.cydeo.CollectionReview_InterviewAlgo;
 
 
 public class Student {
