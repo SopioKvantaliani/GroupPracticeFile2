@@ -62,6 +62,24 @@ public class MySinglyLInkedList {
 
     }
 
+    int indexOf(int id){
+
+        if (isEmpty()){
+            return -1;
+        }
+
+        int position= 0;
+        //iterate through the list
+        Node current = head; // set my current with the starting element;
+        while (current!=null){
+
+            if (current.id==id) return position; //if true will return index 0
+            position++; //increase position if this is not the case;
+            current = current.next; //moves us to the next element;
+        }
+        return -1;
+    }
+
 
     void printNodes (){
         Node current = head;

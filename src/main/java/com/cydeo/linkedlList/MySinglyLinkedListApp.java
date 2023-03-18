@@ -10,8 +10,10 @@ public class MySinglyLinkedListApp {
         for (int i = 0; i < 10; i++) {
             myList.add(i); //we add elements into our List
         }
-
-        myList.printNodes();
+            myList.printNodes();
+            myList.deleteById(9);
+            myList.printNodes();
+            System.out.println("Index of 0"+myList.indexOf(0));
 
     }
 }
